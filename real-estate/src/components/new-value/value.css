@@ -1,0 +1,136 @@
+
+.v-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .v-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .v-left, .v-right {
+    flex: 1;
+  }
+  
+
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+  }
+  .secondaryTextt{
+    color: #ddd;
+  }
+  
+ 
+  
+  .accordion-content {
+    padding: 20px;
+   
+    overflow: hidden; 
+    transition: max-height 0.3s ease; 
+    max-height: 0;
+  }
+  
+  .accordion-item.open .accordion-content {
+    max-height: 500px; 
+  }
+  
+  .flexColStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .primaryText, .orangeText, .secondaryText {
+    margin: 10px 0;
+  }
+.image-container img {
+    width: 100%;
+    height: 400px;
+}  @media (max-width:640px) {
+  /* Base styles for smaller screens */
+.v-wrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust left section */
+.v-left .image-container img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+}
+
+/* Center and resize heading and text */
+.v-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.v-right .orangeText {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.v-right .primaryText {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.v-right .secondaryText {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+
+.accordion {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #515A47;
+  padding: 0.8rem;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.accordion-content {
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
+
+  
+}

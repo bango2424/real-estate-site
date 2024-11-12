@@ -1,0 +1,110 @@
+.image-co img{
+    width: 400px;
+    margin: 80px;
+}
+
+
+.c-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+   
+}
+.mode{
+    width: 16rem;
+    padding: 1rem;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+    background-color: #131B23;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.mode{
+    border: 1.2px solid rgba(128, 128, 128, 0.143);
+    cursor: pointer;
+   
+    
+}
+
+.btn{
+    width: 100%;
+    background: var(--lightBlue);
+    font-weight: 600;
+    color: var(--blue);
+}
+.btn:hover{
+    background-color: #F1F2EE;
+}
+
+
+.row{
+    display: flex;
+}
+
+@media (max-width: 640px) {
+    .c-wrap {
+        padding: 1rem;
+    }
+
+    .c-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .c-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .c-left .orangeText, .c-left .primaryText, .c-left .secondaryText {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+
+    .contactModes {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .mode {
+        width: 100%;
+        padding: 1rem;
+        background-color: #131B23; 
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .detail span {
+        font-size: 1rem;
+    }
+
+   
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .c-right {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .image-co img {
+        width: 100%;
+        max-width: 300px; 
+        border-radius: 8px;
+        margin-top: -1rem;
+        translate: -80px;
+    }
+}

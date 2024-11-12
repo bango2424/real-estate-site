@@ -1,0 +1,80 @@
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+   
+
+}
+.h-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: aliceblue;
+  
+   
+}
+.button{
+    color: antiquewhite;
+}
+
+
+
+
+.a-btn{
+   background-color: #FEC0AA;
+}
+
+
+.h-menu:hover{
+    cursor: pointer;
+    color: #191D32;
+}
+.h-menu{
+    gap: 2rem;
+   color: antiquewhite;
+}
+.logo{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 0px;
+   
+}
+
+
+
+
+@media (max-width:768px) {
+    .icon-con{
+        display: block;
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+       
+  
+    }
+    .h-menu{
+        flex-direction: column;
+        top: -3rem;
+        position: absolute;
+        color: var(--white);
+        right: 2rem;
+        background: black;
+        font-weight: 400;
+        padding: 1rem;
+        gap: 2rem;
+        transition: 300ms ease-in;
+        display: flex;
+        color: antiquewhite;
+       
+
+    }
+    .h-img{
+    position: relative;
+        top: 1rem;
+        right: 3rem;
+        width: 90px;
+    }
+
+}

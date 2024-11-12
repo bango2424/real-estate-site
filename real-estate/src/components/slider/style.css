@@ -1,0 +1,47 @@
+.s-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    
+    
+  }
+  
+  .s-wrapper div {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    cursor: pointer;
+    color: #839791;
+    z-index: 1;
+  }
+  
+  .arrow-left {
+    left: 10px;
+  }
+  
+  .arrow-right {
+    right: 10px;
+  }
+  
+  .current-image {
+    width: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+  .hide-current-image {
+    opacity: 0;
+    position: absolute;
+  }
+  

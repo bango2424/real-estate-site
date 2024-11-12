@@ -1,0 +1,16 @@
+.c-con{
+
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+   
+}
+ .c-con img{
+    width: 15%;
+
+}
+.c-wrapper{
+    
+    background-color: #002E2C;
+}

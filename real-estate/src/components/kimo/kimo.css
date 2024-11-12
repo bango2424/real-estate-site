@@ -1,0 +1,27 @@
+.k-wrapper{
+ 
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    
+
+    
+}
+.kk-container{
+    margin: 20px;
+ 
+}
+.k-btn{
+    background-color:   #131B23 ;
+    color: aliceblue;
+    cursor: pointer;;
+    width: 100px;
+ 
+}
+@media (max-width: 640px) {
+    .k-container{
+       margin-bottom: 1rem 0rem;
+       padding: 1rem;
+    }
+    
+}
