@@ -1,6 +1,7 @@
 .image-co img{
     width: 400px;
     margin: 80px;
+    border-radius: 2rem;
 }
 
 
@@ -16,11 +17,13 @@
     padding: 1rem;
     gap: 1rem;
     transition: all 300ms ease-in;
-    background-color: #131B23;
+    background-color: #000;
 }
 .detail{
     display: flex;
     flex-direction: column;
+    color: #F1F2EE;
+   
 }
 .mode{
     border: 1.2px solid rgba(128, 128, 128, 0.143);
@@ -33,16 +36,20 @@
     width: 100%;
     background: var(--lightBlue);
     font-weight: 600;
-    color: var(--blue);
-}
-.btn:hover{
-    background-color: #F1F2EE;
+   
 }
 
 
 .row{
     display: flex;
 }
+.c-right{
+    display: flex;
+    flex-direction: column;
+    color: #F1F2EE;
+
+}
+
 
 @media (max-width: 640px) {
     .c-wrap {

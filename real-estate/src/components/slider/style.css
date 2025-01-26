@@ -1,11 +1,11 @@
 .s-wrapper {
-    position: relative;
+  
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 100%;
-    max-width: 600px;
+    max-width: 1200px;
     overflow: hidden;
+    gap: 3rem;
     
     
   }

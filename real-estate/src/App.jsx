@@ -10,21 +10,28 @@ import Kimo from './components/kimo/kimo'
 
 
 
+
 function App() {
  
   return (
    <div>
     <div>
+    
+
      <div className='gradient'/>
     <Header/>
     <Hero/>
     </div>
-    <Companies/>
     <Slider/>
     <Value/>
     <Contact/>
-    <Kimo/>    
+    
+    
+
+
+      
    </div>
+   
   )
 }
 

@@ -67,7 +67,35 @@ export default function Slider() {
 
   return (
     <section className="s-wrapper">
-      <div>
+      <div className="s-container">
+        <BsArrowLeftCircleFill
+          onClick={handlePrevious}
+          className="arrow arrow-left"
+          aria-label="previous slide"
+        />
+
+        {data.length > 0 &&
+          data.map((item, index) => (
+            <img
+              key={index}
+              src={item.image}
+              alt=""
+              className={
+                currentSlide === index
+                  ? "current-image"
+                  : "current-image hide-current-image"
+              }
+            />
+          ))}
+
+        <BsArrowRightCircleFill
+          onClick={handleNext}
+          className="arrow arrow-right"
+          aria-label="next slide"
+        />
+      </div>
+
+      <div className="s-contain">
         <BsArrowLeftCircleFill
           onClick={handlePrevious}
           className="arrow arrow-left"
@@ -96,5 +124,7 @@ export default function Slider() {
       </div>
       
     </section>
+
+    
   );
 }

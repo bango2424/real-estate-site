@@ -61,10 +61,18 @@
   .primaryText, .orangeText, .secondaryText {
     margin: 10px 0;
   }
+  .accordion-content{
+    color: #ddd;
+  }
+
+
 .image-container img {
     width: 100%;
     height: 400px;
-}  @media (max-width:640px) {
+    border-radius: 3rem;
+}
+
+@media (max-width:640px) {
   /* Base styles for smaller screens */
 .v-wrapper {
   padding: 1rem;

@@ -17,7 +17,9 @@
 .button{
     color: antiquewhite;
 }
-
+.icon-con{
+    color: #FEC0AA;
+}
 
 
 
@@ -40,6 +42,9 @@
     left: 1rem;
     width: 0px;
    
+}
+.h-img{
+    color: #FEC0AA;
 }
 
 
